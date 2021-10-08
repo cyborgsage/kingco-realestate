@@ -34,8 +34,10 @@ Since district contained 18 categories, we changed it into dummy variables. By u
 
 We picked which columns that we wanted to focus on originally from a heatmap of correlations. We ran train test splits for every single model that we did. We also made sure to run StandardScaler on every single model we did in order to scale them.
 
-Most of our data preparation process can be found in our [jupyter_notebook](original_index_unabridged.ipynb) located in the appendix.
-The rest of it can be found within [jupyter_notebook](Chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
+Most of our data preparation process can be found in our [jupyter_notebook](/appendix/original_index_unabridged.ipynb) located in the appendix.
+The rest of it can be found within [jupyter_notebook](/appendix/Chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
+
+The code for the charts we used in our presentation are also located within our appendix in [jupyter_notebook](/appendix/original_index_unabridged.ipynb)
 
 ## Modeling
 
@@ -79,13 +81,14 @@ To improve our model in the future, we could bin house sales by neighborhood. We
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [presentation](Phase 2 Group.pdf).
+See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [Presentation](Phase 2 Group.pdf).
 
 For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), [Doug Mill](mailto:thedougmill@gmail.com)
 
 ## Repository Structure
 
 ```
+├── appendix
 ├── data
 ├── images
 ├── .gitignore
