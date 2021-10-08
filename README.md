@@ -39,7 +39,7 @@ We picked which columns that we wanted to focus on originally from a heatmap of 
 Most of our data preparation process can be found in our [Original Index Unabridged](/appendix/original_index_unabridged.ipynb) located in the appendix.
 The rest of it can be found within [Chris Book](/appendix/chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
 
-The code for the charts we used in our presentation are also located within our appendix in [jupyter_notebook](/appendix/original_index_unabridged.ipynb)
+The code for the charts we used in our presentation are also located within our appendix in [Chris Book](/appendix/original_index_unabridged.ipynb)
 
 ## Modeling
 
