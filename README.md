@@ -10,21 +10,21 @@
 
 This project analyzes : ...... Descriptive analysis of ........ and outcome data shows that ............ Shareholder can use this analysis to..........
 
-## Business Problem
+## Business Understanding
 
 ![img](something)
 
 Shareholder may be able to improve ........... and ensure ....................... Doing so will allow the Shareholder to better .......................
 
-## Data
+## Data Understanding
 
 Shareholder has the longest running public dataset of ........... Every ..... has a unique ID associated with both their [linke](something.com) and [link](something.com) data. The data files provide ................
 
-## Methods
+## Modeling
 
 This project uses descriptive analysis, including description ...........
 
-## Results
+## Regression Results
 
 ...........
 
