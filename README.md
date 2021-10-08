@@ -37,6 +37,8 @@ We picked which columns that we wanted to focus on originally from a heatmap of 
 Most of our data preparation process can be found in our [jupyter_notebook](original_index_unabridged.ipynb) located in the appendix.
 The rest of it can be found within [jupyter_notebook](Chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
 
+The code for the charts we used in our presentation are also located within our appendix in [jupyter_notebook](original_index_unabridged.ipynb)
+
 ## Modeling
 
 We created 6 models. Baseline model, First model, Good model, Great model, Awesome model, and Amazing model. In the end, we decided to go with Great model as our Final model.
