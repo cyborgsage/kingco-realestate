@@ -4,8 +4,8 @@
 
 # King County Real Estate
 
-**Author**: [Doug Mill](mailto:thedougmill@gmail.com)
-            [Jakub Rybicki](mailto:jakubry92b@gmail.com)
+**Authors**: [Doug Mill](mailto:thedougmill@gmail.com), 
+            [Jakub Rybicki](mailto:jakubry92b@gmail.com), and 
             [Chris O'Malley](mailto:chriso2672@gmail.com)
  
 ## Overview
@@ -26,13 +26,18 @@ Our original data set includes info about King County homes that sold between Ma
 
 ## Data Preperation
 
-For data preparation, we formatted many columns. We later decided we didn't need to use many of them. We ended up eliminating samples where the price was outside of 3 standard deviations of the mean price. We then found a typo and removed it. This is how we cleaned the data from the dataset that was included which was kc_house_data.csv.
+For data preparation, we formatted many columns. We later decided we didn't need to use many of them. One of the important ones that we formatted that we ended up using in our final model was grade. We formatted it by going off the kingcounty.gov website 'Building Grade' guide. We classified from '3' which is 'short of minimum building standard' to '11' which is 'higher quality finish work...and more luxurious options'. We ended up eliminating samples where the price was outside of 3 standard deviations of the mean price. We then found a typo and removed it. This is how we cleaned the data from the dataset that was included which was kc_house_data.csv.
 
 We incorporated 2015 School GIS data from the kingcounty.gov website. We then merged it with kc_house_data.csv on 4 different keys; 'id', 'lat', 'long', and 'zipcode'. This plotted the entries against district lines, and formed a column in which each entry was classified by the district that it was located in. There are 18 school districts in King County; Mercer Island, Bellevue, Seattle, Lake Washington, Vashon Island, Issaquah, Shoreline, Northshore, Snoqualmie Valley, Riverview, Highline, Renton, Skykomish, Enumclaw, Tahoma, Tukwila, Kent, and Federal Way.
 
 Since district contained 18 categories, we changed it into dummy variables. By using get_dummies, District was transformed into 18 seperate variables. Each variable contains a 0 or 1. 0 signals that the house was not located in that district while 1 signals that it is present in that district.
 
 We picked which columns that we wanted to focus on originally from a heatmap of correlations. We ran train test splits for every single model that we did. We also made sure to run StandardScaler on every single model we did in order to scale them.
+
+Most of our data preparation process can be found in our [jupyter_notebook](/appendix/original_index_unabridged.ipynb) located in the appendix.
+The rest of it can be found within [jupyter_notebook](/appendix/Chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
+
+The code for the charts we used in our presentation are also located within our appendix in [jupyter_notebook](/appendix/original_index_unabridged.ipynb)
 
 ## Modeling
 
@@ -76,16 +81,17 @@ To improve our model in the future, we could bin house sales by neighborhood. We
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [presentation](Phase 2 Group.pdf).
+See the full analysis in the [Jupyter Notebook](./KC_Real_Estate.ipynb) or review this [Presentation](./KC_Real_Estate_Presentation.pdf).
 
-For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), [Doug Mill](mailto:thedougmill@gmail.com)
+For additional info contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), and [Doug Mill](mailto:thedougmill@gmail.com).
 
 ## Repository Structure
 
 ```
+├── appendix
 ├── data
 ├── images
 ├── .gitignore
 ├── README.md
-├── index.ipynb
-└── Phase 2 Group.pdf
+├── KC_Real_Estate.ipynb
+└── KC_Real_Estate_Presentation.pdf
