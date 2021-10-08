@@ -86,6 +86,7 @@ For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chri
 ## Repository Structure
 
 ```
+├── appendix
 ├── data
 ├── images
 ├── .gitignore
