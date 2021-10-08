@@ -1,6 +1,6 @@
 # kingco-realestate
 
-![someImage](./images/something.jpg)
+![ols.png](./images/ols.png)
 
 # Big Title
 
