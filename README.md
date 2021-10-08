@@ -1,19 +1,13 @@
-
-![OLS2](./images/OLS2.png)
-
-![RMSE](./images/RMSE.png)
-
 ![seattlehouses](./images/seattlehouses.jpg)
 
-![sqftliv_linreg](./images/sqftliv_linreg.png)
+
 
 # King County Real Estate
 
-**Author**: [Doug Mill](mailto:someone@flatironschool.com)
+**Author**: [Doug Mill](mailto:thedougmill@gmail.com)
             [Jakub Rybicki](mailto:jakubry92b@gmail.com)
             [Chris O'Malley](mailto:chriso2672@gmail.com)
  
-
 ## Overview
 
 Our task is to build an inferential linear regression model. Our model will help our stakeholder understand King County home valuations better. We will follow the assumptions of linear regression which are linearity, independence, normality, and homoscedasticity. We will also strive to have a high R^2 value, signaling that our parameters are explaining much of the total variance in house sales.
@@ -51,18 +45,15 @@ School Districts
 Building Grade
 We decided Great Model is adequate with an R-squared value of .72 with only 3 predictors. The simplicity of it makes it easy to understand and use while also explaining such a high amount of the variance in price.
 
-![OLS](./images/OLS.png)
+![sqftliv_linreg](./images/sqftliv_linreg.png)
 
 ## Regression Results
 
 Awesome model has an R-squared of .742. Building on Great model, adding yr_built explains 74.2% of the variance in price. The inclusion of yr_built raised our R-squared from .72 to .74, for an increase of .02. Our awesome model mostly follow the linearity assumption, but the linearity of yr_built is vague. The distribution of errors is skewed right. Good model has low multicollinearity in general, with all VIF below 5 except for District_SEATTLE at 7. It passes the homoscedasticity test.
-...........
 
-![someImage](./images/something.png)
-
-................
-
-![something.png](./images/something.png)
+![OLS](./images/OLS.png)
+![OLS2](./images/OLS2.png)
+![RMSE](./images/RMSE.png)
 
 We decided to use Great Model as our Final model. This model did very well with 3 predictors. Those predictors are square feet living, school district, and grade. The reasoning for selecting Great Model even though some of the following models had higher R-squared values was because it was simple, yet understandable. The following models seemed to muddy the waters when it came to the linearity assumption.
 
@@ -70,9 +61,7 @@ The Great Model is able to explain 72.3% of the variance in price of King County
 
 The Great Model does a great job at helping our stakeholder, the real estate agency, understand the gist of what drives home prices in the King County area. More specifically, it gives invaluable information about which school district they should target for either top end or bottom end location values.
 
-
 ## Conclusions
-
 
 Our model showed us that the most important predictors to look at in a home are going to be square feet living, school district, and building grade. To relate this back to our stakeholder, we want to inform the real estate agency to focus on these elements in their deals. We can also help them by allowing them to plot different values in our model and giving them a rough valuation based on these variables.
 
@@ -85,17 +74,16 @@ To improve our model in the future, we could bin house sales by neighborhood. We
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](something.ipynb) or review this [presentation](something.pdf).
+See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [presentation](Phase 2 Group.pdf).
 
-For additional info, contact Someone at [someone@flatironschool.com](mailto:someone@flatironschool.com)
-
-![logo](./images/something.jpg)
+For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), [Doug Mill](mailto:thedougmill@gmail.com)
 
 ## Repository Structure
 
 ```
 ├── data
 ├── images
+├── .gitignore
 ├── README.md
-├── Some_Presentation.pdf
-└── Some_analysis.ipynb
+├── index.ipynb
+└── Phase 2 Group.pdf
