@@ -1,6 +1,4 @@
 
-![OLS](./images/OLS.png)
-
 ![OLS2](./images/OLS2.png)
 
 ![RMSE](./images/RMSE.png)
@@ -52,6 +50,8 @@ Square feet living
 School Districts
 Building Grade
 We decided Great Model is adequate with an R-squared value of .72 with only 3 predictors. The simplicity of it makes it easy to understand and use while also explaining such a high amount of the variance in price.
+
+![OLS](./images/OLS.png)
 
 ## Regression Results
 
