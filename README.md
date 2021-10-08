@@ -30,6 +30,8 @@ For data preparation, we formatted many columns. We later decided we didn't need
 
 We incorporated 2015 School GIS data from the kingcounty.gov website. We then merged it with kc_house_data.csv on 4 different keys; 'id', 'lat', 'long', and 'zipcode'. This plotted the entries against district lines, and formed a column in which each entry was classified by the district that it was located in. There are 18 school districts in King County; Mercer Island, Bellevue, Seattle, Lake Washington, Vashon Island, Issaquah, Shoreline, Northshore, Snoqualmie Valley, Riverview, Highline, Renton, Skykomish, Enumclaw, Tahoma, Tukwila, Kent, and Federal Way.
 
+![Price Heatmap with School Districts](./images/Kings_HeatMap_SchoolZones.PNG)
+
 Since district contained 18 categories, we changed it into dummy variables. By using get_dummies, District was transformed into 18 seperate variables. Each variable contains a 0 or 1. 0 signals that the house was not located in that district while 1 signals that it is present in that district.
 
 We picked which columns that we wanted to focus on originally from a heatmap of correlations. We ran train test splits for every single model that we did. We also made sure to run StandardScaler on every single model we did in order to scale them.
