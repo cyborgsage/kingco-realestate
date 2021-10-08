@@ -4,8 +4,8 @@
 
 # King County Real Estate
 
-**Author**: [Doug Mill](mailto:thedougmill@gmail.com)
-            [Jakub Rybicki](mailto:jakubry92b@gmail.com)
+**Authors**: [Doug Mill](mailto:thedougmill@gmail.com), 
+            [Jakub Rybicki](mailto:jakubry92b@gmail.com), and 
             [Chris O'Malley](mailto:chriso2672@gmail.com)
  
 ## Overview
@@ -81,9 +81,9 @@ To improve our model in the future, we could bin house sales by neighborhood. We
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](index.ipynb) or review this [Presentation](Phase 2 Group.pdf).
+See the full analysis in the [Jupyter Notebook](./KC_Real_Estate.ipynb) or review this [Presentation](./KC_Real_Estate_Presentation.pdf).
 
-For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), [Doug Mill](mailto:thedougmill@gmail.com)
+For additional info contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chris O'Malley](mailto:chriso2672@gmail.com), and [Doug Mill](mailto:thedougmill@gmail.com).
 
 ## Repository Structure
 
@@ -93,5 +93,5 @@ For additional info, contact [Jakub Rybicki](mailto:jakubry92b@gmail.com), [Chri
 ├── images
 ├── .gitignore
 ├── README.md
-├── index.ipynb
-└── Phase 2 Group.pdf
+├── KC_Real_Estate.ipynb
+└── KC_Real_Estate_Presentation.pdf
