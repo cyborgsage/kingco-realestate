@@ -2,6 +2,14 @@
 
 ![OLS](./images/OLS.png)
 
+![OLS2](./images/OLS2.png)
+
+![RMSE](./images/RMSE.png)
+
+![seattlehouses](./images/seattlehouses.jpg)
+
+![sqftliv_linreg](./images/sqftliv_linreg.png)
+
 # Big Title
 
 **Author**: [Someone](mailto:someone@flatironschool.com)
