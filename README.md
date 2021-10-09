@@ -36,10 +36,10 @@ Since district contained 18 categories, we changed it into dummy variables. By u
 
 We picked which columns that we wanted to focus on originally from a heatmap of correlations. We ran train test splits for every single model that we did. We also made sure to run StandardScaler on every single model we did in order to scale them.
 
-Most of our data preparation process can be found in our [jupyter_notebook](/appendix/original_index_unabridged.ipynb) located in the appendix.
-The rest of it can be found within [jupyter_notebook](/appendix/chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
+Most of our data preparation process can be found in our [Original Index Unabridged](/appendix/original_index_unabridged.ipynb) located in the appendix.
+The rest of it can be found within [Chris Book](/appendix/chris_book.ipynb) located in the appendix. We needed to do this for code efficiency.
 
-The code for the charts we used in our presentation are also located within our appendix in [jupyter_notebook](/appendix/original_index_unabridged.ipynb)
+The code for the charts we used in our presentation are also located within our appendix in [Chris Book](/appendix/original_index_unabridged.ipynb) along with additional charts, plots, and other useful code.
 
 ## Modeling
 
