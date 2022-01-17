@@ -24,7 +24,7 @@ Our stakeholder will be able to evaluate the Seattle and King County real estate
 
 Our original data set includes info about King County homes that sold between May 2nd, 2014 to May 24th, 2015. The target variable is price. We removed properties that were outside of three standard deviations of the mean price. This left us with homes with a price under $1.65M. We also removed typos. That took us from 21597 entries to 21280. We then incorporated 2015 School GIS data from kingcounty.gov in order to create our 'District' variable. The District variable includes the school district that the home is located in. There are 18 school districts in King County. We cleaned the original data set and merged it with the outside data in order to create our cleaned dataset, known as 'KingSchool.csv'. It can be found in the data folder.
 
-## Data Preperation
+## Data Preparation
 
 For data preparation, we formatted many columns. We later decided we didn't need to use many of them. One of the important ones that we formatted that we ended up using in our final model was grade. We formatted it by going off the kingcounty.gov website 'Building Grade' guide. We classified from '3' which is 'short of minimum building standard' to '11' which is 'higher quality finish work...and more luxurious options'. We ended up eliminating samples where the price was outside of 3 standard deviations of the mean price. We then found a typo and removed it. This is how we cleaned the data from the dataset that was included which was kc_house_data.csv.
 
